@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Wordpress Article Template</title>
+  <meta name="description" content="Wordpress Article Template">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <style>
+
+    .contentWrapper {
+      width: 100%;
+    }
+
+    .box {
+      display: block;
+      width: 100%;
+    }
+
+    .box:nth-child(odd) .image {
+      text-align: center;
+    }
+
+    .box:nth-child(even) .image {
+      text-align: center;
+    }
+
+    .box .text {
+      padding: 12%;
+    }
+
+    img {
+      width: 100%;
+      max-width: 480px;
+    }
+
+    @media only screen and (min-width: 640px) {
+      .contentWrapper {
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      .box {
+        display: flex;
+        margin: 50px 0 150px;
+      }
+
+      .box .text {
+        width: 400px;
+        min-height: 230px;
+        top: 0;  
+        bottom: 0;  
+        left: 0;  
+        right: 0;  
+        margin: auto;
+        padding: 60px 100px;
+        background-color: #ccc;
+      }
+
+      .box .image {
+        min-width: 250px;
+        margin: 0 10px;
+      }
+
+      .box:nth-child(odd) {
+        flex-flow:row-reverse;
+      }
+
+      .box:nth-child(odd) .image {
+        position: relative;
+        left: -100px;
+        bottom: -60px;
+      }
+
+      .box:nth-child(even) .image {
+        position: relative;
+        right: -100px;
+        bottom: -60px;
+      }
+
+      .imageWrapper {
+        position: relative;
+        height: 100%;
+      }
+
+      .imageContainer {
+        position: absolute;
+        bottom: 0;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="contentWrapper">
+
+    <!-- loop -->
+    <div class="box">
+      <div class="image">
+        <div class="imageWrapper">
+          <div class="imageContainer"><img src="https://via.placeholder.com/250x350/e1e1e1/000000"></div>
+        </div>
+      </div>
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <br><br>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <br><br>
+        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+      </div>
+    </div>
+    <!-- //loop -->
+    
+    <div class="box">
+      <div class="image">
+        <div class="imageWrapper">
+          <div class="imageContainer"><img src="https://via.placeholder.com/250x350/e1e1e1/000000"></div>
+        </div>
+      </div>
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <br><br>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <br><br>
+        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="image">
+        <div class="imageWrapper">
+          <div class="imageContainer"><img src="https://via.placeholder.com/250x350/e1e1e1/000000"></div>
+        </div>
+      </div>
+      <div class="text">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        <br><br>
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        <br><br>
+        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+
+  </script>
+</body>
+</html>
